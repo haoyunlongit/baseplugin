@@ -1,4 +1,0 @@
-dependencies {
-    implementation 'org.apache.ant:ant:1.10.9' // 确保版本与你的需求相匹配
-    // 其他依赖
-}

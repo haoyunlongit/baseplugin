@@ -12,8 +12,13 @@ import java.util.jar.JarOutputStream
 
 //引用插件
 apply plugin: 'com.android.application'
-apply plugin: com.enjoy.pach.plugin.PatchPlugin
+apply plugin: "com.steven.steven"
 
+steven {
+    debugon true
+    applicationName  "asdf"
+    output  "afdsasdfa"
+}
 
 //扩展
 android {

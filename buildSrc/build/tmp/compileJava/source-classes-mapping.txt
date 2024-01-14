@@ -1,2 +1,5 @@
-com/enjoy/pach/plugin/PatchPlugin.java
- com.enjoy.pach.plugin.PatchPlugin
+com/steven/stevenPlugin/PatchPlugin.java
+ com.steven.stevenPlugin.PatchPlugin
+ com.steven.stevenPlugin.PatchPlugin$1
+com/steven/stevenPlugin/PatchExt.java
+ com.steven.stevenPlugin.PatchExt

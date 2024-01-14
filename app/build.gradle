@@ -12,12 +12,13 @@ import java.util.jar.JarOutputStream
 
 //引用插件
 apply plugin: 'com.android.application'
-apply plugin: "com.steven.steven"
+apply plugin: 'com.steven.steven'
+
 
 steven {
     debugon true
     applicationName  "asdf"
-    output  "afdsasdfa"
+    output  "ffff"
 }
 
 //扩展

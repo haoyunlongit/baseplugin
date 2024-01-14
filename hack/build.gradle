@@ -1,8 +1,28 @@
-apply plugin: 'java-library'
+apply plugin: 'java-gradle-plugin'
+apply plugin: 'maven-publish'
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation  "com.android.tools.build:gradle:4.0.1"
 }
 
-sourceCompatibility = "7"
-targetCompatibility = "7"
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+// 发布到本地 Maven 仓库
+publishing {
+
+    publications {
+        plugin(MavenPublication) {
+            groupId 'com.sina.tools'
+            artifactId 'steven'
+            version '1.0.2'
+            from components.java
+        }
+    }
+
+    repositories {
+        mavenLocal()
+    }
+}

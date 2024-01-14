@@ -6,9 +6,9 @@
       <module name="Hotfix.buildSrc" target="1.8" />
       <module name="Hotfix.buildSrc.main" target="1.8" />
       <module name="Hotfix.buildSrc.test" target="1.8" />
-      <module name="Hotfix.hack" target="1.7" />
-      <module name="Hotfix.hack.main" target="1.7" />
-      <module name="Hotfix.hack.test" target="1.7" />
+      <module name="Hotfix.hack" target="1.8" />
+      <module name="Hotfix.hack.main" target="1.8" />
+      <module name="Hotfix.hack.test" target="1.8" />
       <module name="Hotfix.lib" target="1.8" />
     </bytecodeTargetLevel>
   </component>
